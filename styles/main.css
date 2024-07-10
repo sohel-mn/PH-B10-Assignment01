@@ -223,7 +223,8 @@ padding-bottom: 50px;
 .cards{
     width: 1050px;
     margin: 0 auto;
-    display: flex; 
+    display: flex;
+    padding-bottom: 100px; 
 }
 .card h4{
     color: rgb(13, 19, 33);
@@ -270,10 +271,59 @@ padding-bottom: 30px;
 
 /* My current target part ends */
 /* support part starts */
-.foot_part{
+.support_part{
     width: 1150px;
     margin: 0 auto;
     height: 300px;
     background-image: url("../assets/handshake.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+.support_part h3{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.support_part p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+padding: 20px 0 15px 0;
+}
+.support_part input{
+    padding: 15px;
+    width: 500px;
+    border: none;
+    border-radius: 15px;
+    /* padding-right: 15px;
+    */
+}
+.support_part button{
+    padding: 15px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.support_part button:hover{
+    background-color: #000;
+    color: #FCFCFD;
+    transition: 1s;
+    font-size: 15px;
+}
+.inp_bt{
+    display: flex;
 }
 /* support part ends */
