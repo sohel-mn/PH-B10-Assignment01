@@ -327,3 +327,25 @@ padding: 20px 0 15px 0;
     display: flex;
 }
 /* support part ends */
+/* footer part starts */
+#last{
+    /* height: 100px; */
+    background-color: #f7f7f8;
+    opacity: .5;
+}
+.foot_icon{
+    width: 1150px;
+    margin: 0 auto;
+    flex-direction: row;
+    padding: 40px;
+    
+}
+.foot_left{
+    float: left;
+    padding-left: 10px;
+}
+.foot_right{
+    float: right;
+    padding-right: 10px;
+}
+/* footer part ends */
