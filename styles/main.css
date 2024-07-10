@@ -11,6 +11,8 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+/* Hero section starts */
+
 .hero_banner_part{
     background-image: url("../assets/Hero-bg.png");
     max-width: 1920px;
@@ -65,3 +67,107 @@ padding: 20px 0 30px 0;
     font-size: 16px;
     text-decoration: underline;
 }
+/* Hero section ends */
+/* Why Webdev part starts */
+
+.why_web_dev{
+    /* background: rgb(30, 30, 30); */
+    width: 1150px;
+    margin: 0 auto;
+    /* background-color: #FAFAFB; */
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
+}
+.why_web_dev_title{
+    width: 1050px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.why_web_dev_title h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    padding: 60PX 0 10PX 0;
+    
+}
+.why_web_dev_title P{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+width: 850px;
+margin: 0 auto;
+padding-bottom: 30px;
+}
+.first_part_text_image{
+    display: flex;
+    /* width: 950px; */
+    /* margin: 0 auto; */
+    /* height: 200px; */
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.first_part_text1{
+    width: 65%;
+    padding-left: 130px;
+    padding-right: 30px;
+}
+.first_part_text1 h3{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 22px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 10px;
+}
+.first_part_text1 p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 10px;
+}
+.first_part_text1 button{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 10px;
+}
+.different_part_two{
+   background-color: #FEFEFE;
+   padding: 20PX 0;
+}
+
+.first_part_text_image #img_two{
+    width: 20%;
+    padding-left: 90px;
+    padding-right: 150px;
+    
+}
+#one{
+    background-color: #FCFCFD;
+
+}
+
+
+
+
+/* Why Webdev part ends */
