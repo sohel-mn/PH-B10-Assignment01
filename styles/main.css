@@ -195,7 +195,85 @@ letter-spacing: 0%;
 text-align: center;
 padding-bottom: 50px;
 }
-
-
-
 /* Inspiration part ends */
+/* My current target part starts */
+.my_current_target{
+    padding-top: 100px;
+}
+.my_current_target h2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+padding: 20px 0;
+}
+.my_current_target p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 50px;
+}
+.cards{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex; 
+}
+.card h4{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.card p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.card a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 30px;
+}
+#card_1{
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+#card_2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin: 0 15px;
+
+}
+#card_3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* My current target part ends */
+/* support part starts */
+.foot_part{
+    width: 1150px;
+    margin: 0 auto;
+    height: 300px;
+    background-image: url("../assets/handshake.jpg");
+}
+/* support part ends */
